@@ -1,0 +1,19 @@
+Dependencies for Project 'I2C_EEPROM_sir', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 525"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\delay.c)(0x6799C831)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (delay.h)(0x6799C831)
+F (.\delay.h)(0x6799C831)()
+F (.\I2C_EEPROM.c)(0x6799D3BE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\i2c_eeprom.o --omf_browse .\objects\i2c_eeprom.crf --depend .\objects\i2c_eeprom.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (PLLCLK.h)(0x6799C831)
+I (lcdheader.h)(0x6799C831)
+I (delay.h)(0x6799C831)
+F (.\lcdheader.c)(0x6799C831)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\lcdheader.o --omf_browse .\objects\lcdheader.crf --depend .\objects\lcdheader.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (lcdheader.h)(0x6799C831)
+I (delay.h)(0x6799C831)
+F (.\lcdheader.h)(0x6799C831)()
+F (.\PLLCLK.c)(0x6799C831)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\pllclk.o --omf_browse .\objects\pllclk.crf --depend .\objects\pllclk.d)
+I (PLLCLK.h)(0x6799C831)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214x.h)(0x559CFE30)
+F (.\PLLCLK.h)(0x6799C831)()

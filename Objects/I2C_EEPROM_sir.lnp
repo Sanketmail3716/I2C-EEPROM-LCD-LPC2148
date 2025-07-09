@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\delay.o"
+".\objects\i2c_eeprom.o"
+".\objects\lcdheader.o"
+".\objects\pllclk.o"
+--strict --scatter ".\Objects\I2C_EEPROM_sir.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\I2C_EEPROM_sir.map" -o .\Objects\I2C_EEPROM_sir.axf
